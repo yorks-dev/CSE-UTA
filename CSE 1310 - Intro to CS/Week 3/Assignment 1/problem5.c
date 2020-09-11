@@ -2,10 +2,10 @@
 #define a 9.81
 int main()
 {
-    double m;
+    float m;
     printf("Enter mass: ");
-    scanf("%lf",&m);
-    printf("Force = %lf\n", m*a);
+    scanf("%f",&m);
+    printf("Force = %f\n", m*a);
     
     return 0;
 }
