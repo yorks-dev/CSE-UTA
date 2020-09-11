@@ -1,0 +1,1 @@
+Can we pass the output of cat file.c via grep to strip only required output ?	
