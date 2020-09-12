@@ -5,7 +5,8 @@ int main()
     float m;
     printf("Enter mass: ");
     scanf("%f",&m);
-    printf("Force = %f\n", m*a);
+    double force = m * a;
+    printf("Force = %f\n", force);
     
     return 0;
 }
